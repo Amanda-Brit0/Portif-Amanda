@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 50px;
+}
+
+body {
+    width: 101vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(123, 119, 117);
+    padding: auto;
+    margin-top: 7px;
+    border: 5px white;
+
+}
+
+.fixed-box {
+    position: fixed;
+    top: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    border: 2px solid rgb(111, 109, 109);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.3ms all;
+
+}
+
+#perfil {
+    max-width: 10%;
+    height: auto;
+    padding-top: 80px;
+    border-radius: 40%;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Briem Hand", cursive;
+}
+
+nav {
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+p {
+    text-align: justify;
+    line-height: 30px;
+    padding: 10px;
+}
+
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+div {
+    display: flex;
+}
+
+div {
+    flex: 1;
+    padding: 30px;
+}
+
+#imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#imagens img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#serie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#serie img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.projetos img {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projetos img {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+
+#musicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#musicas img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#dc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dc img {
+    width: auto;
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+section:nth-child(even) {
+    background-color: #2f2d2d;
+}
+
+section:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+.rodape {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.rod.foo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*9h de desenvolvimento. Adormeci 6h a.m*/
